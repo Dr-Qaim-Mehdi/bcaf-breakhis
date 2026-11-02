@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or these predictions, please cite them as below."
+title: "Protocol Before Architecture: code, out-of-fold predictions and analysis scripts for patient-wise evaluation on BreaKHis"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Dr-Qaim-Mehdi/bcaf-breakhis"
+authors:
+  - family-names: "Rizvi"
+    given-names: "Qaim Mehdi"
+    affiliation: "Department of CSE-CSDS, Brainware University, Kolkata, India"
+    orcid: "https://orcid.org/0000-0002-0443-5314"
+  - family-names: "Talat"
+    given-names: "Sana"
+    affiliation: "Department of CSE-CSDS, Brainware University, Kolkata, India"
+  - family-names: "Rizvi"
+    given-names: "Iqra Mehdi"
+    affiliation: "Department of Biotechnology, Khwaja Moinuddin Chishti Language University, Lucknow, India"
+  - family-names: "Ansari"
+    given-names: "Mohammad Azam"
+    affiliation: "Department of Epidemic Disease Research, IRMC, Imam Abdulrahman Bin Faisal University, Dammam, Saudi Arabia"
+  - family-names: "Ahmad"
+    given-names: "Khurshid"
+    affiliation: "Department of Health Informatics, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia"
+  - family-names: "Jamal"
+    given-names: "Qazi Mohammad Sajid"
+    affiliation: "Department of Health Informatics, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia"

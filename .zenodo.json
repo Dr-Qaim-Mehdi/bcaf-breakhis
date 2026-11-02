@@ -1,0 +1,54 @@
+{
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "title": "Protocol Before Architecture: code, out-of-fold predictions and analysis scripts for patient-wise evaluation on BreaKHis",
+  "description": "<p>Code and results accompanying the manuscript <em>Protocol Before Architecture: Data Leakage, Variance and Trustworthiness in Breast Cancer Histopathology Classification</em> (under review).</p><p>Five architectures (a bidirectional cross-attention CNN–Transformer hybrid, its concatenation ablation, ConvNeXt-Tiny, Swin-Tiny and ResNet-50) were trained under patient-wise five-fold cross-validation at all four BreaKHis magnifications (20 runs), plus four image-wise runs that measure patient-level leakage. The archive contains the training notebook and source code, including executable patient-disjointness assertions; the out-of-fold predictions of all 20 runs (one row per image); and scripts that recompute every statistic, table value and figure in the manuscript from those predictions without retraining.</p><p>The BreaKHis images are not included; they are available from the original authors (Spanhol et al., IEEE Trans Biomed Eng 2016).</p>",
+  "creators": [
+    {
+      "name": "Rizvi, Qaim Mehdi",
+      "affiliation": "Department of CSE-CSDS, Brainware University, Kolkata, India",
+      "orcid": "0000-0002-0443-5314"
+    },
+    {
+      "name": "Talat, Sana",
+      "affiliation": "Department of CSE-CSDS, Brainware University, Kolkata, India"
+    },
+    {
+      "name": "Rizvi, Iqra Mehdi",
+      "affiliation": "Department of Biotechnology, Khwaja Moinuddin Chishti Language University, Lucknow, India"
+    },
+    {
+      "name": "Ansari, Mohammad Azam",
+      "affiliation": "Department of Epidemic Disease Research, IRMC, Imam Abdulrahman Bin Faisal University, Dammam, Saudi Arabia"
+    },
+    {
+      "name": "Ahmad, Khurshid",
+      "affiliation": "Department of Health Informatics, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia"
+    },
+    {
+      "name": "Jamal, Qazi Mohammad Sajid",
+      "affiliation": "Department of Health Informatics, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia"
+    }
+  ],
+  "keywords": [
+    "breast cancer histopathology",
+    "BreaKHis",
+    "deep learning",
+    "data leakage",
+    "patient-wise cross-validation",
+    "statistical power",
+    "model calibration",
+    "selective prediction",
+    "explainable artificial intelligence"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Dr-Qaim-Mehdi/bcaf-breakhis",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
