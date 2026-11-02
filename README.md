@@ -1,5 +1,7 @@
 # Protocol Before Architecture: BreaKHis code, predictions and analyses
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23876314.svg)](https://doi.org/10.5281/zenodo.23876314)
+
 Code and results for the paper
 
 > Rizvi QM, Talat S, Rizvi IM, Ansari MA, Ahmad K, Jamal QMS. **Protocol Before Architecture: Data Leakage,
@@ -76,6 +78,17 @@ To fetch and check the dataset locally, run `bash scripts/get_breakhis.sh ./data
   14-13412 and are treated as one grouping unit. This gives 81 units at every magnification.
 * Model selection used balanced accuracy on the evaluation fold, for all architectures alike. Absolute values are
   therefore slightly optimistic. Comparisons between models are not affected.
+
+## Citing this code and data
+
+Version 1.0.0 is archived on Zenodo:
+
+> Rizvi QM, Talat S, Rizvi IM, Ansari MA, Ahmad K, Jamal QMS. Protocol Before Architecture: code, out-of-fold
+> predictions and analysis scripts for patient-wise evaluation on BreaKHis. Version 1.0.0. Zenodo; 2026.
+> doi:[10.5281/zenodo.23876314](https://doi.org/10.5281/zenodo.23876314)
+
+To cite all versions, use the concept DOI [10.5281/zenodo.23876313](https://doi.org/10.5281/zenodo.23876313).
+Please also cite the paper once it is published.
 
 ## Licence
 

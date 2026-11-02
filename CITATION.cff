@@ -3,6 +3,8 @@ message: "If you use this code or these predictions, please cite them as below."
 title: "Protocol Before Architecture: code, out-of-fold predictions and analysis scripts for patient-wise evaluation on BreaKHis"
 type: software
 version: 1.0.0
+doi: "10.5281/zenodo.23876314"
+date-released: "2026-11-02"
 license: MIT
 repository-code: "https://github.com/Dr-Qaim-Mehdi/bcaf-breakhis"
 authors:
