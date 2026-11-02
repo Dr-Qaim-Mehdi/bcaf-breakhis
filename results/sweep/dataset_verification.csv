@@ -1,0 +1,10 @@
+class,subtype,published,found,delta,match
+benign,adenosis,444,444,0,True
+benign,fibroadenoma,1014,1014,0,True
+benign,phyllodes_tumor,453,453,0,True
+benign,tubular_adenoma,569,569,0,True
+malignant,ductal_carcinoma,3451,3451,0,True
+malignant,lobular_carcinoma,626,626,0,True
+malignant,mucinous_carcinoma,792,792,0,True
+malignant,papillary_carcinoma,560,560,0,True
+TOTAL,,7909,7909,0,True

@@ -1,0 +1,21 @@
+{
+  "model_key": "bcaf",
+  "num_classes": 2,
+  "img_size": 224,
+  "batch_size": 32,
+  "epochs": 30,
+  "lr": 0.0003,
+  "backbone_lr_mult": 0.1,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.05,
+  "warmup_epochs": 3,
+  "patience": 8,
+  "amp": true,
+  "num_workers": 2,
+  "seed": 42,
+  "class_balanced_loss": true,
+  "task": "binary",
+  "protocol": "patient_wise",
+  "magnification": "all",
+  "extra": {}
+}
